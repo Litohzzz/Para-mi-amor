@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ Hola Hola wapa, acepta y seremos eternidad ♥</title>
+  <style>
+    .body {
+      background-color: rgb(199, 138, 150);
+      text-align: center;
+    }
+
+    .body__title {
+      color: rgb(255, 255, 255);
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 75%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ Hola Hola wapa, acepta y seremos eternidad ♥</h1>
+  <img src="https://i.pinimg.com/736x/01/5f/ac/015facad14a90872258fea1442e40ca5.jpg" alt="Foto D My"
+    class="body__img" />
+  <br>
+  <button id="yes"> jsjsjs acepto wapo </button>
+  <button id="no"> No quiero, gracias </button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Listo, ya eres mía💞');
+      alert(' Hasta ser un algo en la nada ');
+      location.href = 'https://youtu.be/1KKU4Jtz_WE';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
